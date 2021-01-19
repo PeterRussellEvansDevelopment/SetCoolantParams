@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8F4BAE17-CFF5-4306-B695-134A18F9C67C}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DCE73471-AE87-494A-A636-2B997EF094B5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{739A3C24-20C9-4DDB-86B6-9686DA250EDD}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Property Sheet">
+      <UniqueIdentifier>{0E85CD24-8A30-47BD-A228-A4FE13C91607}</UniqueIdentifier>
+      <Extensions>props</Extensions>
+    </Filter>
+    <Filter Include="Doc Files">
+      <UniqueIdentifier>{8BEEDB75-7C8E-4E76-B10F-75278F37377B}</UniqueIdentifier>
+      <Extensions>doc;docx;pdf</Extensions>
+    </Filter>
+    <Filter Include="Post Build Options">
+      <UniqueIdentifier>{F5327D8A-937E-40C0-BB45-7044D76403FB}</UniqueIdentifier>
+      <Extensions>bat;cmd;txt</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCoolantParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCoolantParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SetCoolantParameters.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ft_large.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ft_small.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InstallDebug.bat">
+      <Filter>Post Build Options</Filter>
+    </None>
+    <None Include="InstallRelease.bat">
+      <Filter>Post Build Options</Filter>
+    </None>
+    <None Include="MastercamSDK.props">
+      <Filter>Property Sheet</Filter>
+    </None>
+    <None Include="res\SetCoolantParameters.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SetCoolantParameters.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SetCoolantParameters.ft" />
+    <None Include="UsingPropertySheet.pdf">
+      <Filter>Doc Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>Post Build Options</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
